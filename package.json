@@ -1,0 +1,16 @@
+{
+  "name": "cfw-worker",
+  "version": "1.0.0",
+  "description": "Worker for account CFW.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/worker.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "googleapis": "^39.2.0",
+    "twit": "^2.2.11"
+  }
+}
